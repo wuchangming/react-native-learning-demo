@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollView } from 'react-native-gesture-handler'
+import { ScrollView } from 'react-native'
 import ListItem from '../../components/ListItem'
 
 export default class HomeScreen extends React.Component {
@@ -21,6 +21,7 @@ export default class HomeScreen extends React.Component {
                 <ListItem title={'3.RenderProps'} onPress={this.routeNavigate('3')} />
                 <ListItem title={'4.HOC'} onPress={this.routeNavigate('4')} />
                 <ListItem title={'5.Mobx'} onPress={this.routeNavigate('5')} />
+                <ListItem title={'6.TestNavigation'} onPress={this.routeNavigate('6')} />
             </ScrollView>
         )
     }

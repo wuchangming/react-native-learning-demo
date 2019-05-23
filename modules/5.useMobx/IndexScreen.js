@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollView } from 'react-native-gesture-handler'
+import { ScrollView } from 'react-native'
 import ListItem from '../../components/ListItem'
 import { inject } from 'mobx-react'
 import headerHOC from '../4.useHOC/hocs/headerHOC'
