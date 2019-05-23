@@ -1,23 +1,10 @@
-// In App.js in a new project
-
-import React from 'react'
-import { View, Text } from 'react-native'
 import { createStackNavigator, createAppContainer } from 'react-navigation'
+import routeUtil from './utils/routeUtil'
+import modules from './modules'
 
-class HomeScreen extends React.Component {
-    render() {
-        return (
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-                <Text>Home Screen</Text>
-            </View>
-        )
-    }
-}
-
-const AppNavigator = createStackNavigator({
-    Home: {
-        screen: HomeScreen
-    }
+const AppNavigator = createStackNavigator(routeUtil(modules), {
+    initialRouteName: '4',
+    headerLayoutPreset: 'center'
 })
 
 export default createAppContainer(AppNavigator)
