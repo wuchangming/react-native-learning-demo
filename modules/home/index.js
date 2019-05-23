@@ -2,7 +2,7 @@ import HomeScreen from './HomeScreen'
 
 export default [
     {
-        path: '/home',
+        path: 'home',
         Comp: HomeScreen
     }
 ]

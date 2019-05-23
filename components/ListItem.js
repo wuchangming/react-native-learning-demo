@@ -8,7 +8,7 @@ export default ({ title, onPress }) => {
                 style={{
                     flex: 1,
                     height: 60,
-                    alignItems: 'center',
+                    alignItems: 'left',
                     justifyContent: 'center',
                     backgroundColor: '#F8F9FA',
                     paddingLeft: 40
