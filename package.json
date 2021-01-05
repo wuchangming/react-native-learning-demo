@@ -7,7 +7,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "expo": "^32.0.0",
     "hoist-non-react-statics": "^3.3.0",
     "mobx": "^5.9.4",
